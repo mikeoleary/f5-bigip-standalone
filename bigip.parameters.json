@@ -1,0 +1,117 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "3.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "allowUsageAnalytics": {
+      "value": true
+    },
+    "bigIpPeerAddr": {
+      "value": ""
+    },
+    "bigIpPeerHostname": {
+      "value": ""
+    },
+    "bigIpRuntimeInitConfig": {
+      "value": "https://raw.githubusercontent.com/mikeoleary/f5-bigip-standalone/runtime-init-conf-3nic-payg.yaml"
+    },
+    "bigIpRuntimeInitPackageUrl": {
+      "value": "https://cdn.f5.com/product/cloudsolutions/f5-bigip-runtime-init/v2.0.1/dist/f5-bigip-runtime-init-2.0.1-1.gz.run"
+    },
+    "cfeStorageAccountName": {
+      "value": ""
+    },
+    "cfeTag": {
+      "value": ""
+    },
+    "hostname": {
+      "value": "bigip01.local"
+    },
+    "image": {
+      "value": "f5-networks:f5-big-ip-best:f5-big-best-plus-hourly-25mbps:17.1.003000"
+    },
+    "instanceType": {
+      "value": "Standard_D8s_v4"
+    },
+    "licenseKey": {
+      "value": ""
+    },
+    "mgmtNsgId": {
+      "value": ""
+    },
+    "mgmtPublicIpId": {
+      "value": ""
+    },
+    "mgmtSelfIp": {
+      "value": "10.0.0.10"
+    },
+    "mgmtSubnetId": {
+      "value": ""
+    },
+    "nic1NsgId": {
+      "value": ""
+    },
+    "nic1PrimaryPublicId": {
+      "value": ""
+    },
+    "nic1SelfIp": {
+      "value": "10.0.1.10"
+    },
+    "nic1ServiceIPs": {
+      "value": []
+    },
+    "nic1SubnetId": {
+      "value": ""
+    },
+    "nic2NsgId": {
+      "value": ""
+    },
+    "nic2PrimaryPublicId": {
+      "value": ""
+    },
+    "nic2SelfIp": {
+      "value": "10.0.2.10"
+    },
+    "nic2ServiceIPs": {
+      "value": []
+    },
+    "nic2SubnetId": {
+      "value": ""
+    },
+    "roleDefinitionId": {
+      "value": ""
+    },
+    "secretId": {
+      "value": ""
+    },
+    "sshKey": {
+      "value": ""
+    },
+    "tagValues": {
+      "value": {
+        "application": "f5demoapp",
+        "cost": "f5cost",
+        "environment": "f5env",
+        "group": "f5group",
+        "owner": "f5owner"
+      }
+    },
+    "uniqueString": {
+      "value": ""
+    },
+    "userAssignManagedIdentity": {
+      "value": ""
+    },
+    "vmName": {
+      "value": "bigip-vm"
+    },
+    "workspaceId": {
+      "value": "WORKSPACE_ID"
+    },
+    "zone": {
+      "value": ""
+    }
+  }
+}
