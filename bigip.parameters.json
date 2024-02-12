@@ -15,7 +15,7 @@
       "value": ""
     },
     "bigIpRuntimeInitConfig": {
-      "value": "https://raw.githubusercontent.com/mikeoleary/f5-bigip-standalone/runtime-init-conf-3nic-payg.yaml"
+      "value": "https://raw.githubusercontent.com/mikeoleary/f5-bigip-standalone/main/runtime-init-conf-3nic-payg.yaml"
     },
     "bigIpRuntimeInitPackageUrl": {
       "value": "https://cdn.f5.com/product/cloudsolutions/f5-bigip-runtime-init/v2.0.1/dist/f5-bigip-runtime-init-2.0.1-1.gz.run"
