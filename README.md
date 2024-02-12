@@ -7,4 +7,4 @@ This small repo is just meant to host a simple, single-template deployment of BI
 
 ### Deploy
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmikeoleary%2Ff5-bigip-standalone%2Fbigip.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmikeoleary%2Ff5-bigip-standalone%2Fmain%2Fbigip.json)
