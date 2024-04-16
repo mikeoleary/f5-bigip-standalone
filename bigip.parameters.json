@@ -30,7 +30,7 @@
       "value": "bigip01.local"
     },
     "image": {
-      "value": "f5-networks:f5-big-ip-best:f5-big-best-plus-hourly-25mbps:17.1.003000"
+      "value": "f5-networks:f5-big-ip-best:f5-big-best-plus-hourly-25mbps:17.1.101000"
     },
     "instanceType": {
       "value": "Standard_D8s_v4"
